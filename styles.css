@@ -79,6 +79,7 @@ form{
   flex-direction: column;
   gap: 24px;
   box-shadow: 0px 5px 5px #d7d7d7;
+  background-color: #fff;
 }
 
 .form-input{
@@ -109,12 +110,53 @@ input:focus{
   margin: 24px 24px;
 }
 
-.form-container form{
-  background-color: #fff;
-}
-
 .account-btn{
   border-radius: 6px;
   border: 1px solid #bebebe;
   padding: 10px 20px
+}
+
+@media screen and (max-width: 840px) {
+  .global-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+    width: 100%;
+    background-color: #f6f6f6;
+    height: 100%;
+  }
+
+  header{
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/priscilla-du-preez-unsplash-bg-img.jpeg);
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+  }
+  .gc-header-wrapper{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 0px;
+    height: 110px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+  }
+  main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: center;
+  }
+  .create-account-container{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 24px;
+    align-items: center;
+  }
 }
