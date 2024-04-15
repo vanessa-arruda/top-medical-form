@@ -1,0 +1,100 @@
+/* general */
+body{
+  display: flex;
+  justify-content: center;
+  background-color: #2a2a2a;
+  margin: auto;
+  padding: 0;
+}
+
+.global-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  width: 80%;
+  background-color: #f6f6f6;
+  height: 100vh;
+}
+
+/* Left side */
+header{
+  display: flex;
+  justify-content: center;
+  background-image: url(./assets/priscilla-du-preez-unsplash-bg-img.jpeg);
+  background-repeat: none;
+  background-size: cover;
+  width: 40%;
+}
+.gc-header-wrapper{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 170px;
+  height: 110px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+.hw-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 24px;
+  height: 100%;
+  line-height: 0;
+}
+.hw-title h1{
+  font-size: 32px;
+  padding: 0;
+}
+.hw-title h2{
+  font-size: 12px;
+  padding: 0;
+}
+
+/* Right side */
+main{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  justify-content: center;
+}
+
+.paragraph{
+  display: flex;
+  flex-direction: column;
+  text-wrap: wrap;
+  font-size: 18px;
+  padding: 0px 32px 0px 24px;
+  line-height: 1;
+}
+
+form{
+  margin:0;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  box-shadow: 0px 5px 5px #d7d7d7;
+}
+
+.form-input{
+  display: flex;
+  gap: 32px;
+}
+
+.form-items{
+  display: flex;
+  flex-direction: column;
+}
+
+.create-account-container{
+  margin: 32px 24px;
+}
+
+.form-container form{
+  background-color: #fff;
+}
