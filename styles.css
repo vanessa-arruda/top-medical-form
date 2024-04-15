@@ -86,15 +86,35 @@ form{
   gap: 32px;
 }
 
+input {
+  border: 1px solid #E5E7EB;
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+
+input:invalid{
+  border-color: red;
+}
+
+input:focus{
+  border-color: #066aac;
+}
+
 .form-items{
   display: flex;
   flex-direction: column;
 }
 
 .create-account-container{
-  margin: 32px 24px;
+  margin: 24px 24px;
 }
 
 .form-container form{
   background-color: #fff;
+}
+
+.account-btn{
+  border-radius: 6px;
+  border: 1px solid #bebebe;
+  padding: 10px 20px
 }

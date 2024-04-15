@@ -46,7 +46,7 @@
             <div class="form-input">
               <div class="form-items">
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="email@xxxx.com"></input>
+                <input type="email" id="email" placeholder="email@xxxx.com" required></input>
               </div>
               <div class="form-items">
                 <label for="phone-number">Phone Number</label>
@@ -56,7 +56,7 @@
             <div class="form-input">
               <div class="form-items">
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Type password here..."></input>
+                <input type="password" id="password" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" placeholder="Type password here..." required></input>
               </div>
               <div class="form-items">
                 <label for="repeat-password">Confirm Password</label>
@@ -66,7 +66,8 @@
           </form>
         </section>
         <div class="create-account-container">
-          <button>Create Account</button>
+          <h3>Do you want to join our community?</h2>
+          <button class="account-btn">Create Account</button>
           <p>Already have an account? <a href="">Log in</a></p>
         </div>
       </main>
